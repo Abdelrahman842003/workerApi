@@ -11,7 +11,7 @@
         use Notifiable;
 
         protected $fillable = [
-            'name', 'email', 'password', 'phone', 'photo', 'location'
+            'name', 'email', 'password', 'phone', 'photo', 'location','verification_token'.'token_verified_at',
         ];
 
         // Rest omitted for brevity
